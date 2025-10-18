@@ -49,7 +49,7 @@ public class Main {
 
     private static void printFlights(List<Flight> flights) {
         if (flights.isEmpty()) {
-            System.out.println("No flights excluded.");
+            System.out.println("Нет исключенных полетов.");
         } else {
             flights.forEach(System.out::println);
         }
